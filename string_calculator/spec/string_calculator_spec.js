@@ -3,7 +3,7 @@ describe('String Calculator', function() {
 		calculator = new StringCalculator();
 	});
 
-	it('should return 0 for an empty string', function() {
-		expect(calculator.add('')).toEqual(0);
+	it('should return numbers 1-100', function() {
+		expect(calculator.add('').length).toEqual(100);
 	});
 });
